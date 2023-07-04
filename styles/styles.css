@@ -3,6 +3,16 @@
     margin: 0px;
     padding: 0;
 }
+figure {
+    position: relative;
+}
+
+figure img {
+    position: absolute;
+    bottom: -140px;
+    left: 50px;
+}
+
 
 .main {
     background-color: #F2D51E;
@@ -18,15 +28,19 @@
 }
 
 .nav-container {
-    width: 300px;
+    width: 400px;
     height: 80px;
     margin: 0;
 }
 
 .personal-container {
+
+    position: flex;
+    
     width: 300px;
     height: 400px;
     flex-shrink: 0;
+    margin: 25px;
 }
 
 .content-container{
