@@ -1,0 +1,84 @@
+/* Clases para configurar el display a flex y establecer la dirección */
+.f {
+  display: flex;
+}
+
+.f-row {
+  flex-direction: row;
+}
+
+.f-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.f-col-reverse {
+  flex-direction: column-reverse;
+}
+
+/* Clases para configurar el wrap */
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.f-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
+/* Clases para alinear items */
+.i-start {
+  align-items: flex-start;
+}
+
+.i-center {
+  align-items: center;
+}
+
+.i-end {
+  align-items: flex-end;
+}
+
+/* Clases para justificar contenido */
+.j-start {
+  justify-content: flex-start;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.j-end {
+  justify-content: flex-end;
+}
+
+.j-between {
+  justify-content: space-between;
+}
+
+.j-around {
+  justify-content: space-around;
+}
+
+.j-evenly {
+  justify-content: space-evenly;
+}
+
+/* Clases para configurar el crecimiento y la contracción de los elementos flex */
+.f-grow {
+  flex-grow: 1;
+}
+
+.f-shrink {
+  flex-shrink: 1;
+}
+
+.f-initial {
+  flex: initial;
+}
+
+.f-1 {
+  flex: 1;
+}
