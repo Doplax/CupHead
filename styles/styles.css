@@ -175,7 +175,7 @@ figure img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 380px;
+    width: 280px;
     height: 70px;
     margin: 0px;
 }
@@ -188,7 +188,7 @@ figure img {
 
 
 .nav-button {
-    margin: 0px 20px;
+    margin: 0px 10px;
     background-color: black;
     border-radius: 10px;
     list-style: none;
@@ -256,5 +256,9 @@ figure img {
 }
 
     
+.svg.svg-fill-primary:hover{
+    fill: red;
+
+}
 } 
     
