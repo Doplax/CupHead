@@ -83,16 +83,31 @@ body {
     flex-shrink: 0;
 }
 
+.personal-container-info {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
 
 /* CONTENT CONTAINER */
 .content-container{
     display: flex;
-    width: 100%;
-    width: 90%;
+    width: 85%;
     /*justify-content: start;*/
     align-items: start;
     flex-direction: column;
-    flex-shrink: 0;
+    margin: 10px;
+    padding: 20px;
+}
+
+.content-container-skills {
+    width: 100%;
 }
 
 
@@ -106,7 +121,44 @@ figure img {
     left: 80px;
 }
 
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
 
+.skill-image {
+    height: 60px;
+    width: 60px;
+    background-color: red; 
+    border-radius: 50%;
+    margin: 10px;
+}
+
+
+.skill-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+
+.progress-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ff0000;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    width: 0;
+    height: 100%;
+    background-color: #0557b6;
+    transition: width 0.3s ease-in-out;
+  }
 
 /* FOOTER BOX */
  
@@ -222,7 +274,7 @@ figure img {
     padding: 32px 48px;
     justify-content: start;
     align-items: start;
-    flex-shrink: 0;
+    padding: 10px;
 }
 
 
@@ -236,6 +288,11 @@ figure img {
     left: 0px;
 }
 
+
+.personal-container-info {
+       display: flex;
+       justify-content: center;
+}
 
 
 /* FOOTER BOX */
