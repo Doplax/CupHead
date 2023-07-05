@@ -1,10 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap');
+
 
 * {
     margin: 0px;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Alegreya Sans SC', sans-serif;
 }
 
 body {
@@ -87,8 +89,9 @@ body {
     display: flex;
     width: 100%;
     width: 90%;
-    justify-content: center;
-    align-items: center;
+    /*justify-content: start;*/
+    align-items: start;
+    flex-direction: column;
     flex-shrink: 0;
 }
 
@@ -200,8 +203,10 @@ figure img {
 /* PERSONAL CONTAINER*/
 .personal-container {
 
-    position: flex;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 300px;
     height: 400px;
     flex-shrink: 0;
@@ -215,20 +220,20 @@ figure img {
     width: 700px;
     height: 520px;
     padding: 32px 48px;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: start;
     flex-shrink: 0;
 }
 
 
 figure {
-    position: relative;
+    position: absolute;
 }
 
 figure img {
-    position: absolute;
-    bottom: -140px;
-    left: 50px;
+    position: relative;
+    bottom: 190px;
+    left: 0px;
 }
 
 
