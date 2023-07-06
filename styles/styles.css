@@ -7,6 +7,8 @@
     margin: 0px;
     padding: 0;
     font-family: 'Alegreya Sans SC', sans-serif;
+    box-sizing: border-box;
+
 }
 
 body {
@@ -16,6 +18,15 @@ body {
     height: 100vh;
     width: 100vw;
 }
+
+.container {
+    border-radius: 16px;
+    background: #EEF2FF;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.50);
+    margin: 10px;
+}
+
+/* NAV BAR */
 
 .header {
     display: flex;
@@ -27,25 +38,6 @@ body {
     
 }
 
-.main {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.footer{
-    width: 100vw;
-}
-
-
-.container {
-    border-radius: 16px;
-    background: #EEF2FF;
-    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.50);
-    margin: 10px;
-}
-
-/* NAV BAR */
 
 .nav-container {
     display: flex;
@@ -74,21 +66,27 @@ body {
 
 
 /* PERSONAL CONTAINER*/
-.personal-container {
 
-    position: flex;
-    
+.main {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.personal-container { 
     width: 90%;
     height: 400px;
-    flex-shrink: 0;
+
 }
 
 .personal-container-info {
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    padding-bottom: 20px;
     height: 100%;
     width: 100%;
 }
@@ -98,12 +96,13 @@ body {
 /* CONTENT CONTAINER */
 .content-container{
     display: flex;
-    width: 85%;
     /*justify-content: start;*/
     align-items: start;
     flex-direction: column;
-    margin: 10px;
+    /*margin: 10px;*/
     padding: 20px;
+    width: 90%;
+
 }
 
 .content-container-skills {
@@ -161,8 +160,11 @@ figure img {
   }
 
 /* FOOTER BOX */
- 
 
+.footer{
+    width: 100vw;
+}
+ 
 .footer-box {
     display: flex;
     justify-content: center;
