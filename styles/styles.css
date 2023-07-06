@@ -134,7 +134,7 @@ figure img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #5c5215;
+    background-color: #F2D51E;
     height: 100vh;
     width: 100vw;
 }
@@ -241,10 +241,10 @@ figure img {
 .footer-box {
     display: flex;
     justify-content: center;
-    position: relative;
+    position: absolute;
     width: 100%;
     overflow: hidden;
-    height: 45px;
+    bottom: 0px;
     line-height: 50px;
     background-color: black;
 }
