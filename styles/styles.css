@@ -169,8 +169,6 @@ figure img {
     display: flex;
     justify-content: center;
     position: relative;
-    width: 100%;
-    overflow: hidden;
     height: 45px;
     line-height: 50px;
     background-color: black;
