@@ -189,7 +189,6 @@ figure img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #5c5215;
     height: 100vh;
     width: 100vw;
 }
@@ -254,7 +253,6 @@ figure img {
 
 /* PERSONAL CONTAINER*/
 .personal-container {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -263,6 +261,11 @@ figure img {
     height: 400px;
     flex-shrink: 0;
     margin: 25px;
+}
+
+.personal-container {
+
+
 }
 
 
