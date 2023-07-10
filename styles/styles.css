@@ -1,5 +1,5 @@
 
-/*@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap');
 
 
@@ -90,7 +90,49 @@ body {
     width: 100%;
 }
 
+.info-rrhh{
+    margin: 10px;
+}
 
+.info-rrhh-svg {
+    margin: 5px;
+    height: 30px;
+    width: 30px;
+}
+
+.info-mail {
+    margin-top: 10px;
+}
+
+#layer_1{
+    color: red;
+    background-color: red;
+}
+.info-mail-svg{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}
+
+.info-name{
+    color: #1E293B;
+    font-size: 30px;
+}
+
+.info-career{
+    color: #4B5563;
+}
+
+
+.personal-container-button {
+    margin-top: 30px;
+    border-radius: 16px;
+    /*height: 30px;*/
+    padding: 8px 25.34px 9px 25.55px;
+    color: white;
+    font-size: 15px;
+    background: #000;
+}
 
 /* CONTENT CONTAINER */
 .content-container{
@@ -109,14 +151,14 @@ body {
 }
 
 
-figure {
+.personal-container-figure {
     position: relative;
 }
 
-figure img {
+.personal-container-figure img {
     position: absolute;
-    bottom: -140px;
-    left: 80px;
+    bottom: -135px;
+    left: 60px;
 }
 
 .skill{
@@ -128,7 +170,6 @@ figure img {
 .skill-image {
     height: 60px;
     width: 60px;
-    background-color: red; 
     border-radius: 50%;
     margin: 10px;
 }
@@ -143,14 +184,6 @@ figure img {
 }
 
 
-.progress-bar {
-    width: 100%;
-    height: 20px;
-    background-color: #ff0000;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
   .progress {
     width: 0;
     height: 100%;
@@ -181,7 +214,7 @@ figure img {
     color: white;
 }
 
-/* DESKTOP */
+/******************************* DESKTOP *******************************/
 @media  (width >= 768px) {
     body {
     display: flex;
@@ -262,17 +295,36 @@ figure img {
     margin: 25px;
 }
 
-.personal-container {
 
-
+.personal-container-info {
+    display: flex;
+    justify-content: end;
 }
 
+.info-name{
+    color: #1E293B;
+    font-size: 30px;
+}
+
+.info-career{
+    color: #4B5563;
+}
+
+
+.personal-container-button {
+    border-radius: 16px;
+    /*height: 30px;*/
+    padding: 8px 25.34px 9px 25.55px;
+    color: white;
+    font-size: 15px;
+    background: #000;
+}
 
 /* CONTENT CONTAINER */
 .content-container{
     display: flex;
     width: 700px;
-    height: 520px;
+    height: 600px;
     padding: 32px 48px;
     justify-content: start;
     align-items: start;
@@ -280,21 +332,24 @@ figure img {
 }
 
 
-figure {
+.personal-container-figure {
     position: absolute;
 }
 
-figure img {
+.personal-container-figure img {
     position: relative;
     bottom: 190px;
     left: 0px;
 }
 
 
-.personal-container-info {
-       display: flex;
-       justify-content: center;
+.content-container-skills{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
+
+
 
 
 /* FOOTER BOX */

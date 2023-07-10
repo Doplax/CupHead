@@ -1,22 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <title>Error 404</title>
-    <style>
-        body {
-            background-color: #fcce1c;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="icon" href="./assets/image.ico" />
+    <link rel="stylesheet" href="./styles/fakeTailwind.css" />
+    <title>Cuphead CV</title>
 </head>
+
 <body>
-    <img src="./assets/404/error404.png" alt="">
-    <img height="30px" src="./assets/404/pageNotFound.png" alt="">
-    <div>
-        <img src="./assets/gifs/notFound.gif" alt="">
-        <img src="./assets/gifs/notFoundBlue.gif" alt="">
-    </div>
+    <header class="header">
+        <nav class="container nav-container">
+            <ul>
+                <li class="nav-button">
+                    <a href="/">
+                        <object data="./assets/svg/menu/home.svg" type="image/svg+xml" id="svgObject"></object>
+                    </a>
+                </li>
+                <li class="nav-button">
+                    <a href="/proyectos"> </a>
+                </li>
+                <li class="nav-button">
+                    <a href="/contacto"> </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <!-- Personal Container -->
+        <div class="container personal-container">
+            <figure class="personal-container-figure">
+                <img src="./assets/Cuphead.png" alt="Cuphead" />
+            </figure>
+            <div class="personal-container-info">
+                <p class="info-name">Cuphead</p>
+                <p class="info-career">bounty hunter</p>
+
+                <!-- RRHH -->
+                <div class="info-rrhh f">
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img class="info-rrhh-svg" src="./assets/svg/linkedin.svg" alt="LinkedIn">
+                    </a>
+                
+                    <a href="https://www.github.com/" target="_blank">
+                        <img class="info-rrhh-svg" src="./assets/svg/github.svg" alt="GitHub">
+                    </a>
+                
+                    <a href="https://www.keepcoding.io/" target="_blank">
+                        <img class="info-rrhh-svg" src="./assets/svg/keepcoding.svg" alt="KeepCoding">
+                    </a> 
+                    
+                </div>
+
+                <div class="info-mail f f-row i-center">
+                    <svg fill="#000000" class="info-mail-svg" height="200px" width="200px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 216 216" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M108,0C48.353,0,0,48.353,0,108s48.353,108,108,108s108-48.353,108-108S167.647,0,108,0z M156.657,60L107.96,98.498 L57.679,60H156.657z M161.667,156h-109V76.259l50.244,38.11c1.347,1.03,3.34,1.545,4.947,1.545c1.645,0,3.073-0.54,4.435-1.616 l49.374-39.276V156z"></path> </g></svg>
+
+                    <div>
+                        <p>Correo:</p>
+                        <p>Cuphead@gmail.com</p>
+                    </div>
+                </div>
+                <p></p>
+                <button class="personal-container-button">Descargar CV</button>
+            </div>
+        </div>
+
+        <!-- Content Container -->
+        <div class="container content-container">
+            <h1>Experiencia</h1>
+            <p>
+                He enfrentado y derrotado a una amplia variedad de enemigos
+                desafiantes en numerosas batallas a lo largo de mis aventuras. Poseo
+                habilidades de combate excepcionales y la capacidad de adaptarme
+                rápidamente a situaciones cambiantes.
+            </p>
+            <h2>Habilidades</h2>
+            <div class="content-container-skills">
+                <!-- SKILL -->
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/ChargeIcon.webp" />
+                    <div class="skill-info">
+                        <p>Charge</p>
+                        <div class="progress-bar">
+                            <progress value="50" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/ChaserIcon.webp" />
+                    <div class="skill-info">
+                        <p>Chaser</p>
+                        <div class="progress-bar">
+                            <progress value="50" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/ConvergeIcon.webp" />
+                    <div class="skill-info">
+                        <p>Converge</p>
+                        <div class="progress-bar">
+                            <progress value="50" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/CrackshotIcon.webp" />
+                    <div class="skill-info">
+                        <p>Crack Shot</p>
+                        <div class="progress-bar">
+                            <progress value="50" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/LobberIcon.webp" />
+                    <div class="skill-info">
+                        <p>Lobber</p>
+                        <div class="progress-bar">
+                            <progress value="50" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/PeashooterIcon.webp" />
+                    <div class="skill-info">
+                        <p>PeaShoter</p>
+                        <div class="progress-bar">
+                            <progress value="50" max="100"></progress>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-box">
+            <p class="animated-text">2023 Doplax.Dev feat Cuphead</p>
+        </div>
+    </footer>
 </body>
+
 </html>
