@@ -196,14 +196,22 @@ nav-container {
   
   .info-rrhh {
     margin: 10px;
+    display: flex;
   }
   
+  
+
   .info-rrhh-svg {
     margin: 5px;
     height: 40px;
     width: 40px;
   }
   
+  .info-rrhh-svg:hover { 
+    transform: scale(1.2);
+  }
+ 
+
   .info-mail {
     margin-top: 10px;
     display: flex;
