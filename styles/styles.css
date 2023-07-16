@@ -170,6 +170,18 @@ nav-container {
   .personal-container {
     width: 90%;
     height: 440px;
+    max-width: 360px;
+  }
+
+  /* IMG de */
+  .personal-container-figure {
+    position: relative;
+  }
+  
+  .personal-container-figure img {
+    position: absolute;
+    bottom: -120px;
+    right: 90px;
   }
   
   .personal-container-info {
@@ -236,7 +248,14 @@ nav-container {
     flex-direction: column;
     padding: 25px;
     width: 90%;
+    overflow-y: auto;
+    
   }
+  ::-webkit-scrollbar {
+    display: none;
+}
+
+  
   
   .content-container p {
     padding: 4px;
@@ -248,17 +267,11 @@ nav-container {
     flex-direction: column;
     justify-content: center;
     align-items: start;
+ 
   }
+
   
-  .personal-container-figure {
-    position: relative;
-  }
   
-  .personal-container-figure img {
-    position: absolute;
-    bottom: -120px;
-    right: 90px;
-  }
   
   .skill {
     display: flex;
@@ -307,7 +320,7 @@ nav-container {
 /******************************* DESKTOP *******************************/
 
 
-@media (min-width: 850px) {
+@media (min-width: 900px) {
   body {
     display: flex;
     flex-direction: column;
