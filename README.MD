@@ -43,26 +43,5 @@ The form inputs have the correct types and HTML validation to ensure accurate da
 
 The footer section includes links to Cuphead's social media profiles. These links direct users to external resources.
 
-## Additional Pages (Projects Page, 404 Page)
-
-There is an additional page that features a video that plays upon entering the website and fades in with an animation. This page also includes a grid displaying Cuphead's projects.
-
-A README file is included with all the necessary information to evaluate the project.
-
-Note: The optional features, such as a CSS-only burger menu, deployment on GitHub Pages, and custom 404 and 500 pages, can be implemented to enhance the project further.
-
-Please note that this is a high-level overview of the portfolio website. The actual implementation requires HTML and CSS coding based on the provided design and requirements.
-
-For more information on writing a good README file, you can refer to the following article: [How to Write a Good README File](https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/)
-
----
-This portfolio website was created as part of the Full Stack Web Bootcamp practice assignment for the Web Fundamentals: HTML5, CSS3 module.
-
-Instructor Contact Information:
-- Discord Tag: kevinccbsg#2306
-- LinkedIn: [Kevin Martínez](https://www.linkedin.com/in/kevinjmartinez/)
 
 Created by Doplax.Dev in 2023.
-
-*This README provides an overview of the Cuphead CV portfolio website and its features. It does not include the actual HTML and CSS code implementation.*
-

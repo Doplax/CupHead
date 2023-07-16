@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/styles.css" />
     <link rel="stylesheet" href="./styles/progressBar.css" />
     <link rel="icon" href="./assets/image.ico" />
-    <link rel="stylesheet" href="./styles/form.css" />
+    <link rel="stylesheet" href="./styles/fakeTailwind.css" />
     <title>Cuphead CV</title>
 </head>
 
@@ -15,17 +15,17 @@
     <header class="header">
         <nav class="container nav-container">
             <ul>
-                <li class=" nav-button ">
+                <li class="active nav-button ">
                     <a  href="/">
                         <svg  id="home" stroke="white" fill="white" stroke-width="0"  viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg"> <path d="M946.5 505L560.1 118.8l-25.9-25.9a31.5 31.5 0 0 0-44.4 0L77.5 505a63.9 63.9 0 0 0-18.8 46c.4 35.2 29.7 63.3 64.9 63.3h42.5V940h691.8V614.3h43.4c17.1 0 33.2-6.7 45.3-18.8a63.6 63.6 0 0 0 18.7-45.3c0-17-6.7-33.1-18.8-45.2zM568 868H456V664h112v204zm217.9-325.7V868H632V640c0-22.1-17.9-40-40-40H432c-22.1 0-40 17.9-40 40v228H238.1V542.3h-96l370-369.7 23.1 23.1L882 542.3h-96.1z"></path></svg>                    
                     </a>
                 </li>
                 <li class="nav-button">
-                    <a href="/proyectos">
+                    <a href="/projects.html">
                         <svg stroke="white" fill="white" stroke-width="0" viewBox="0 0 24 24" class="text-3xl" xmlns="http://www.w3.org/2000/svg"><path d="m7.375 16.781 1.25-1.562L4.601 12l4.024-3.219-1.25-1.562-5 4a1 1 0 0 0 0 1.562l5 4zm9.25-9.562-1.25 1.562L19.399 12l-4.024 3.219 1.25 1.562 5-4a1 1 0 0 0 0-1.562l-5-4zm-1.649-4.003-4 18-1.953-.434 4-18z"></path></svg>                    </a>
                 </li>
-                <li class="active nav-button">
-                    <a href="/contacto">
+                <li class="nav-button">
+                    <a href="/contact.html">
                         <svg stroke="white" fill="white" stroke-width="0" viewBox="0 0 24 24" class="text-3xl" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M13.17 4L18 8.83V20H6V4h7.17M14 2H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V8l-6-6zm-2 12c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm4 3.43c0-.81-.48-1.53-1.22-1.85a6.95 6.95 0 00-5.56 0A2.01 2.01 0 008 17.43V18h8v-.57z"></path></svg>                    </a>
                 </li>
             </ul>
@@ -61,76 +61,94 @@
                     <svg fill="#000000" class="info-mail-svg" height="200px" width="200px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 216 216" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M108,0C48.353,0,0,48.353,0,108s48.353,108,108,108s108-48.353,108-108S167.647,0,108,0z M156.657,60L107.96,98.498 L57.679,60H156.657z M161.667,156h-109V76.259l50.244,38.11c1.347,1.03,3.34,1.545,4.947,1.545c1.645,0,3.073-0.54,4.435-1.616 l49.374-39.276V156z"></path> </g></svg>
 
                     <div>
-                        <p>Correo:</p>
+                        <p>e-Mail:</p>
                         <p>Cuphead@gmail.com</p>
                     </div>
                 </div>
                 <p></p>
                 <a class="personal-container-button" target="_blank" href="https://doplax.dev/docs/CV-Pol-Valle.pdf" >
-                    Descargar CV
+                    Download CV
                 </a>                
             </div>
         </div>
 
         <!-- Content Container -->
         <div class="container content-container">
-            <h2>CONTACT</h2>
+            <h2>Experience</h2>
+            <p>
+                I have faced and defeated a wide variety of enemies
+                in numerous battles throughout my adventures. 
+            </p>
+            <p>
+                I possess exceptional combat skills and the ability to quickly adapt
+                to changing situations.
+            </p>
             
-                <!-- Form -->
-                <div class="form-container">
-                    <form class="form" method="post" action="formsubmit.html">
-                        <div class="form-element">
-                            <label class="form-label" for="name">Name</label>
-                            <input class="form-input" type="text" name="name" id="name" placeholder="Your Name" required="">
+            <h2>Skills</h2>
+            
+            <div class="content-container-skills">
+                <!-- SKILL -->
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/ChargeIcon.webp" />
+                    <div class="skill-info">
+                        <p>Charge</p>
+                        <div class="progress-bar">
+                            <div class="b-40"></div>
                         </div>
-                        <div class="form-element">
-                            <label class="form-label" for="lastName">Last Name</label>
-                            <input class="form-input" type="text" name="lastName" id="lastName" placeholder="Your Last Names" required="">
-                        </div>
-                        <div class="form-element">
-                            <label class="form-label" for="phone">Phone (XXX-XXX-XXX)</label>
-                            <input class="form-input" type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="Your phone (666-666-666)" required="">
-                        </div>
-                        <div class="form-element">
-                            <label class="form-label" for="github-tag">Github Tag (@user)</label>
-                            <input class="form-input" type="text" name="github" id="github-tag" pattern="^@[^\s]+" placeholder="Format @user">
-                        </div>
-                        <div class="form-element form-element-radio">
-                            <label class="form-label">Where did you meet me?</label>
-                            <div class="form-radio">
-                                <input class="form-input" type="radio" name="where" id="university" value="uni" required="" checked="">
-                                <label class="form-label-radio" for="university">University</label>
-                            </div>
-                            <div class="form-radio">
-                                <input class="form-input" type="radio" name="where" id="keepcoding" value="kc" required="">
-                                <label class="form-label-radio" for="keepcoding">Keepcoding kick-off</label>
-                            </div>
-                            <div class="form-radio">
-                                <input class="form-input" type="radio" name="where" id="school" value="sc" required="">
-                                <label class="form-label-radio" for="school">School</label>
-                            </div>
-                            <div class="form-radio">
-                                <input class="form-input" type="radio" name="where" id="github" value="gh">
-                                <label class="form-label-radio" for="github">On Github</label>
-                            </div>
-                        </div>
-                        <div class="form-element form-element-textarea">
-                            <label class="form-label" for="moreinfo">More information</label>
-                            <textarea class="form-input" name="moreinfo" id="moreinfo" maxlength="180" placeholder="Tell me more" required=""></textarea>
-                        </div>
-                        <div class="form-element form-element-checkbox">
-                            <input class="form-input" type="checkbox" name="news" id="news" checked="">
-                            <label class="form-label" for="news">Subscribe to the Newsletter</label>
-                        </div>
-                        <div class="form-element form-element-buttons">
-                            <button type="submit" class="btn-submit">Send</button>
-                            <button type="reset" class="btn-cancel">Cancel</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
                 
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/ChaserIcon.webp" />
+                    <div class="skill-info">
+                        <p>Chaser</p>
+                        <div class="progress-bar">
+                            <div class="b-70"></div>
+                        </div>
+                    </div>
+                </div>
                 
-            
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/ConvergeIcon.webp" />
+                    <div class="skill-info">
+                        <p>Converge</p>
+                        <div class="progress-bar">
+                            <div class="b-50"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/CrackshotIcon.webp" />
+                    <div class="skill-info">
+                        <p>Crack Shot</p>
+                        <div class="progress-bar">
+                            <div class="b-20"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/LobberIcon.webp" />
+                    <div class="skill-info">
+                        <p>Lobber</p>
+                        <div class="progress-bar">
+                            <div class="b-100"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill">
+                    <img class="skill-image" src="./assets/skills/PeashooterIcon.webp" />
+                    <div class="skill-info">
+                        <p>PeaShooter</p>
+                        <div class="progress-bar">
+                            <div class="b-80"></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
         </div>
     </main>
     <footer class="footer">
