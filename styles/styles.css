@@ -131,7 +131,6 @@ nav-container {
     justify-content: center;
     align-items: center;
     margin: 0px 15px;
-    /*background-color: var(--background-color-card);*/
     border-radius: 10px;
     list-style: none;
     height: 50px;
@@ -177,7 +176,7 @@ nav-container {
     max-width: 360px;
   }
 
-  /* IMG de */
+  /* IMG  */
   .personal-container-figure {
     position: relative;
   }
@@ -265,9 +264,15 @@ nav-container {
   }
   ::-webkit-scrollbar {
     display: none;
-}
+  }
 
-  
+  .content-container-title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  }
   
   .content-container p {
     padding: 4px;
@@ -502,4 +507,21 @@ nav-container {
     animation: move 50s linear infinite;
     color: var(--color-white);
   }
+}
+
+
+
+
+/* Scroll Animation */
+@keyframes scroll {
+	0% {
+		transform: translateY(0);
+	}
+	30% {
+		transform: translateY(100px);
+	}
+}
+
+svg #wheel {
+	animation: scroll ease 1.5s infinite;
 }
