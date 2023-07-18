@@ -40,6 +40,7 @@
     display: flex;
     flex-direction: column;
     background-image: url('../assets/background.jpg');
+    background-size: cover;
     height: 100vh;
     width: 100vw;
   }
@@ -260,6 +261,7 @@ nav-container {
     padding: 25px;
     width: 90%;
     overflow-y: auto;
+    /*max-width: 450px;*/
     
   }
   ::-webkit-scrollbar {
@@ -337,7 +339,7 @@ nav-container {
 /******************************* DESKTOP *******************************/
 
 
-@media (min-width: 900px) {
+@media (min-width: 900px) and (min-height: 860px){
   body {
     background-image: url('../assets/backgroundYellow.png');
     background-color: var(--background-color-main);
