@@ -1,4 +1,4 @@
-### [Try Me!](https://cupheadcv.netlify.app/)
+### [Try Me!](https://doplax.github.io/CupHead/)
 # Cuphead CV
 
 This is a portfolio website showcasing information about Cuphead, a bounty hunter. The website features various sections and elements to provide a comprehensive overview of Cuphead's skills and background.
