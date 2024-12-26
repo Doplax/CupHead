@@ -2,7 +2,7 @@
 .progress-bar {
     width: 80%;
     height: 10px;
-    background-color: #f3f3f3;
+    background-color: #b3b3b3;
     border-radius: 10px;
     overflow: hidden;
     animation: progress 3s ease-in-out forwards;

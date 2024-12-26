@@ -4,7 +4,7 @@
 :root {
     --font-color-main: #1e293b;
     --font-color-secondary: #4b5563;
-    --background-color-main: #f2d51e;
+    --background-color-main: #fcce1c;
     --background-color-card: #eef2ff;
     --background-color-button: #000;
     --color-white: #fff;
@@ -289,15 +289,13 @@ nav-container {
     align-items: start;
  
   }
-
-  
-  
   
   .skill {
     display: flex;
     justify-content: space-between;
     margin: 5px 0px;
     width: 100%;
+    padding-right: 40px;
   }
   
   .skill-image {
@@ -482,7 +480,7 @@ nav-container {
   /* CONTENT CONTAINER */
   .content-container {
     display: flex;
-    width: 700px;
+    width: 900px;
     height: 600px;
     padding: 32px 48px;
     justify-content: start;
@@ -532,3 +530,5 @@ nav-container {
 svg #wheel {
 	animation: scroll ease 1.5s infinite;
 }
+
+

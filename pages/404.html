@@ -3,20 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <title>Error 404</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="icon" href="../assets/image.ico" />
+    <title>Page Not Found</title>
     <style>
         body {
-            background-color: #fcce1c;
+            background-color: #fcce1c !important;
+            background-image: none;
+        }
+
+        a {
+            display: flex;
+            flex-direction: column;
+            text-decoration: none;
+            position: relative;
+        }
+
+        a:hover::after {
+            content: "Go back to the homepage"; 
+            position: absolute;
+            top: 100%; 
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            white-space: nowrap;
         }
     </style>
 </head>
 <body>
-    <img src="./assets/404/error404.png" alt="">
-    <img height="30px" src="./assets/404/pageNotFound.png" alt="">
-    <div>
-        <img src="./assets/gifs/notFound.gif" alt="">
-        <img src="./assets/gifs/notFoundBlue.gif" alt="">
-    </div>
+    <a href="/" aria-label="Back to Home">
+        <img src="../assets/404/error404.png" alt="">
+        <img height="30px" src="../assets/404/pageNotFound.png" alt="">
+        <div>
+            <img src="../assets/gifs/notFound.gif" alt="">
+            <img src="../assets/gifs/notFoundBlue.gif" alt="">
+        </div>
+    </a>
 </body>
 </html>
