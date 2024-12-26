@@ -77,6 +77,7 @@
   stroke: var(--color-black);
   height: 30px;
   transition: fill 1s ease, stroke 1s ease;
+  margin-top: 5px;
 
 }
 
@@ -333,6 +334,10 @@ nav-container {
     white-space: nowrap;
     animation: move 50s linear infinite;
     color: var(--color-white);
+  }
+
+  .animated-text:hover{
+    color: var(--background-color-main);
   }
   
 
